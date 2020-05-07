@@ -2,6 +2,7 @@
 
 [![Latest release](https://img.shields.io/github/release/google/guava.svg)](https://github.com/google/guava/releases/latest)
 [![Build Status](https://travis-ci.org/google/guava.svg?branch=master)](https://travis-ci.org/google/guava)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frlfagan%2Fguava.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frlfagan%2Fguava?ref=badge_shield)
 
 Guava is a set of core Java libraries from Google that includes new collection types
 (such as multimap and multiset), immutable collections, a graph library, and
@@ -126,3 +127,7 @@ flavor.
 [using Guava in your build]: https://github.com/google/guava/wiki/UseGuavaInYourBuild
 [repackage]: https://github.com/google/guava/wiki/UseGuavaInYourBuild#what-if-i-want-to-use-beta-apis-from-a-library-that-people-use-as-a-dependency
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frlfagan%2Fguava.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frlfagan%2Fguava?ref=badge_large)
