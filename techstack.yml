@@ -1,0 +1,263 @@
+repo_name: rlfagan/guava
+report_id: ac7ee2787c30b8e46690fe5f8eeda3ca
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T23:11:58+00:00'
+requested_by: arhimondr
+provider: github
+branch: master
+detected_tools_count: 24
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/rlfagan/guava
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rlfagan/guava
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rlfagan/guava
+  detection_source: Repo Metadata
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/guava-gwt/pom.xml
+  detection_source: guava-gwt/pom.xml
+- name: FindBugs
+  description: An open-source static code analyser
+  website_url: http://findbugs.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-testlib/pom.xml
+  detection_source: android/guava-testlib/pom.xml
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/guava
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-testlib/pom.xml
+  detection_source: android/guava-testlib/pom.xml
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-tests/pom.xml
+  detection_source: android/guava-tests/pom.xml
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rlfagan/guava
+  detection_source: Repo Metadata
+- name: com.google.caliper:caliper
+  description: 'Caliper: Microbenchmarking Framework for Java'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-tests/pom.xml
+  detection_source: android/guava-tests/pom.xml
+- name: com.google.code.findbugs:jsr305
+  description: JSR305 Annotations for Findbugs
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-testlib/pom.xml
+  detection_source: android/guava-testlib/pom.xml
+- name: com.google.errorprone:error_prone_annotations
+  description: Sonatype helps open source projects to set up Maven repositories on
+    https://oss.sonatype.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-testlib/pom.xml
+  detection_source: android/guava-testlib/pom.xml
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/guava-gwt/pom.xml
+  detection_source: guava-gwt/pom.xml
+- name: com.google.guava:guava-testlib
+  description: Guava testlib is a set of java classes used for more convenient unit
+    testing - particularly to assist the tests for Guava itself
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/guava-gwt/pom.xml
+  detection_source: guava-gwt/pom.xml
+- name: com.google.gwt:gwt-dev
+  version: 2.8.2
+  license: Unicode-TOU
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/guava-gwt/pom.xml
+  detection_source: guava-gwt/pom.xml
+- name: com.google.gwt:gwt-user
+  version: 2.8.2
+  license: Unicode-TOU
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/guava-gwt/pom.xml
+  detection_source: guava-gwt/pom.xml
+- name: com.google.j2objc:j2objc-annotations
+  description: A set of annotations that provide additional information to the J2ObjC
+    translator to modify the result of translation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-testlib/pom.xml
+  detection_source: android/guava-testlib/pom.xml
+- name: com.google.jimfs:jimfs
+  description: Jimfs is an in-memory implementation of Java 7's java.nio.file abstract
+    file system API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-tests/pom.xml
+  detection_source: android/guava-tests/pom.xml
+- name: com.google.truth:truth
+  description: Parent metadata for Truth, a Java assertion framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-testlib/pom.xml
+  detection_source: android/guava-testlib/pom.xml
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-testlib/pom.xml
+  detection_source: android/guava-testlib/pom.xml
+- name: org.checkerframework:checker-qual
+  description: Checker Qual is the set of annotations
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/guava-gwt/pom.xml
+  detection_source: guava-gwt/pom.xml
+- name: org.easymock:easymock
+  description: EasyMock provides an easy way to create Mock Objects for interfaces
+    and classes generating them on the fly
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-tests/pom.xml
+  detection_source: android/guava-tests/pom.xml
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/guava/blob/master/android/guava-tests/pom.xml
+  detection_source: android/guava-tests/pom.xml
